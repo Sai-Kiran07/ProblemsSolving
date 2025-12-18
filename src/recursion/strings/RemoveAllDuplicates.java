@@ -1,5 +1,30 @@
 package recursion.strings;
 
+/*Problem Statement:
+
+Given a string S, remove all duplicate characters such that only the first occurrence of each character is kept.
+
+Order of first occurrences must be preserved
+
+Use recursion only
+
+No loops
+
+No built-in duplicate removal utilities
+
+Input
+S = "programming"
+
+Output
+progamin
+
+More Examples
+Input:  IITMadras
+Output: ITMadrs
+
+Input:  aabbcc
+Output: abc
+*/
 public class RemoveAllDuplicates {
 
     public static void main(String[] args) {
